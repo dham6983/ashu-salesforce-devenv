@@ -17,7 +17,7 @@ metadata:
   name: ashu-app
   namespace: ashu-dev-ns
 spec:
-  replicas: 3
+  replicas: 5 # adding replica of pods 
   selector:
     matchLabels:
       app: ashu-app
